@@ -1,0 +1,38 @@
+{
+  "name": "cutlang-syntax",
+  "displayName": "CutLang Syntax Highlighting",
+  "description": "Syntax highlighting for CutLang files",
+  "version": "0.0.1",
+  "publisher": "ibeuler",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibeuler/vscode-cutlang.git"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "cutlang",
+        "extensions": [".adl"],
+        "aliases": ["CutLang"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "cutlang",
+        "scopeName": "source.cutlang",
+        "path": "./syntaxes/cutlang.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "CutLang Color Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cutlang-color-theme.json"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  }
+}

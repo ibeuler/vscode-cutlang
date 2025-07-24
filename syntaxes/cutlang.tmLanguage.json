@@ -1,0 +1,92 @@
+{
+    "name": "CutLang",
+    "scopeName": "source.cutlang",
+    "patterns": [
+      {
+        "match": "\\b(object)\\b",
+        "name": "keyword.control.object.cutlang"
+      },
+      {
+        "match": "\\b(region)\\b",
+        "name": "keyword.control.region.cutlang"
+      },
+      {
+        "match": "\\b(select)\\b",
+        "name": "keyword.control.select.cutlang"
+      },
+      {
+        "match": "\\b(take)\\b",
+        "name": "keyword.control.take.cutlang"
+      },
+      {
+        "match": "\\b(define)\\b",
+        "name": "keyword.declaration.define.cutlang"
+      },
+      {
+        "match": "\\b(weight)\\b",
+        "name": "keyword.control.weight.cutlang"
+      },
+      {
+        "match": "\\b(histo)\\b",
+        "name": "keyword.control.histo.cutlang"
+      },
+      {
+        "match": "\\b(init)\\b",
+        "name": "keyword.control.init.cutlang"
+      },
+      {
+        "match": "\\b(info)\\b",
+        "name": "keyword.control.info.cutlang"
+      },
+      {
+        "match": "\\b(Union)\\b",
+        "name": "keyword.control.union.cutlang"
+      },
+      {
+        "match": "\\b(SkipHistos)\\b",
+        "name": "keyword.control.skiphistos.cutlang"
+      },
+  
+      {
+        "match": "\\b(trigE|trigM|Pt|Eta|Phi|Abs|Size|sort|sqrt|cos|sin|step|dPhi|m|E|q|pdgID|AbsEta|lep_isTight|lep_pt|lep_ptcone30|lep_etcone20|lep_trackd0pvunbiased|lep_tracksigd0pvunbiased|lep_z0|Theta|MET|METLV)\\b",
+        "name": "support.function.builtin.cutlang"
+      },
+  
+      {
+        "match": "\\b(pi|Lumi|sfc|mcMcWeight|dataWeight|totalWeight|Lepton1|Lepton2|Lepton3|Lepton12|3Lepton|mtw|mtwz|Chi2WZ)\\b",
+        "name": "variable.constant.analysis.cutlang"
+      },
+  
+      {
+        "match": "(\\b\\w+\\b)(?=\\s*\\=)",
+        "name": "variable.assignment.cutlang"
+      },
+  
+      {
+        "match": "(\\b\\w+\\b)(?=\\()",
+        "name": "variable.function.user.cutlang"
+      },
+  
+      {
+        "match": "\"[^\"]*\"",
+        "name": "string.quoted.double.cutlang"
+      },
+      {
+        "match": "//.*$",
+        "name": "comment.line.double-slash.cutlang"
+      },
+      {
+        "match": "#.*$",
+        "name": "comment.line.hash.cutlang"
+      },
+      {
+        "match": "\\b[0-9]+\\.[0-9]+\\b",
+        "name": "constant.numeric.float.cutlang"
+      },
+      {
+        "match": "\\b[0-9]+\\b",
+        "name": "constant.numeric.integer.cutlang"
+      }
+    ]
+  }
+  

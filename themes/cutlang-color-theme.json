@@ -1,0 +1,42 @@
+{
+    "name": "CutLang Color Theme",
+    "type": "dark",
+    "colors": {
+      "editor.background": "#1E1E1E",
+      "editor.foreground": "#D4D4D4",
+      "editorCursor.foreground": "#A7A7A7"
+    },
+    "tokenColors": [
+      {
+        "scope": "keyword.control.define.cutlang",
+        "settings": {
+          "foreground": "#FF6347"  // Tomato color for 'define'
+        }
+      },
+      {
+        "scope": "keyword.control.select.cutlang",
+        "settings": {
+          "foreground": "#7FFF00"  // Chartreuse color for 'select'
+        }
+      },
+      {
+        "scope": "keyword.control.object.cutlang",
+        "settings": {
+          "foreground": "#1E90FF"  // Dodger Blue for 'object'
+        }
+      },
+      {
+        "scope": "keyword.control.region.cutlang",
+        "settings": {
+          "foreground": "#FFD700"  // Gold for 'region'
+        }
+      },
+      {
+        "scope": "keyword.control.weight.cutlang",
+        "settings": {
+          "foreground": "#8A2BE2"  // BlueViolet for 'weight'
+        }
+      }
+    ]
+  }
+  

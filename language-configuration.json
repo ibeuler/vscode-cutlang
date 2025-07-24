@@ -1,0 +1,29 @@
+{
+    "name": "cutlang-syntax",
+    "displayName": "CutLang Syntax",
+    "description": "Syntax highlighting for CutLang (.adl files)",
+    "version": "0.0.1",
+    "publisher": "Ibrahım H.I. Abushawısh, ibeuler",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "categories": ["Programming Languages"],
+    "contributes": {
+      "languages": [
+        {
+          "id": "cutlang",
+          "aliases": ["CutLang", "cutlang"],
+          "extensions": [".adl"],
+          "configuration": "./language-configuration.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "cutlang",
+          "scopeName": "source.cutlang",
+          "path": "./syntaxes/cutlang.tmLanguage.json"
+        }
+      ]
+    }
+  }
+  
